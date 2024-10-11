@@ -1,1 +1,3 @@
-package Class_and_object;
+ public void setPassword(String pwd){
+//         password = pwd;
+//     }
