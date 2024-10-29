@@ -10,9 +10,9 @@ public class GetExponential {
         // int xn = x*xnm1;
         // return xn;
 
-        return x*
+        return x*getPow(x, n-1);
     }
     public static void main(String[] args) {
-
+        System.out.println(getPow(2, 3  ));
     }
 }
