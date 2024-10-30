@@ -20,6 +20,9 @@
 
 public class GetFirstOcurence {
     public static int firstOcurence(int arr[],int key, int idx){
+        if (idx == arr.length) {
+            return -1;
+        }
         if (arr[idx] == key) {
             return idx;
         }
@@ -27,5 +30,6 @@ public class GetFirstOcurence {
     }
     public static void main(String[] args) {
         int arr[] = {8, 3, 6, 9, 5, 10, 2, 5, 11};
+        System.out.println(firstOcurence(arr, 5, 0));
     }
 }
