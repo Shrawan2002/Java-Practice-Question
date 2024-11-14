@@ -1,5 +1,4 @@
 
-
 public class GetExponential {
 
     public static int getPow(int x , int n){
