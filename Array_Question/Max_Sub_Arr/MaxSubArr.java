@@ -25,3 +25,7 @@ public class MaxSubArr {
         printMaxSubArr(arr);
     }
 }
+// time complexity 0(n3)
+
+//m2
+
