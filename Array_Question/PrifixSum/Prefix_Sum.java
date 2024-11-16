@@ -2,10 +2,10 @@
 
 public class Prefix_Sum {
 
-    public static void maxSum(int arr[]){
+    public static int maxSum(int arr[]){
 
         int curSum = 0;
-        int maxSum = -1;
+        int maxSum = Integer.MIN_VALUE;
         int n = arr.length;
 
         int prefixSumArr [] = new int[n];
@@ -19,10 +19,17 @@ public class Prefix_Sum {
             for(int j = i; j<arr.length; j++){
                 int end = j;
                 curSum = start == 0? prefixSumArr[end] : prefixSumArr[end] - prefixSumArr[start - 1];
+
+                if(curSum > maxSum){
+                    maxSum = curSum;
+                }
             }
         }
+        return maxSum;
     }
     public static void main(String[] args) {
+        int arr[] = {1, -2, 6, -1, 3};
+        System.out.println(maxSum(arr));
         
     }
 }
