@@ -12,6 +12,7 @@ public class SortedArray {
         return true;
     }
     public static void main(String[] args) {
+        //non decending order means => acending order + equall to
         int arr[] = {1, 2, 3, 3, 4, 4};
         System.out.println(checkSortedArray(arr));
     }
