@@ -12,10 +12,10 @@ public class LeftRotate {
         for(int i = k; i<arr.length; i++){
             arr[i-k] = arr[i];
         }
-        int j = 0;
+        // int j = 0;
         for(int i = n-k; i<arr.length; i++){
-            arr[i] = temp[j];
-            j++;
+            arr[i] = temp[i - (n-k)];
+            // j++;
         }
     }
 
