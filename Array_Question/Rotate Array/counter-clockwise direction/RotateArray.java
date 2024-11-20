@@ -31,3 +31,6 @@ public class RotateArray {
         printArray(arr);
     }
 }
+
+//Timecomplexity = 0(d) + O(n-d) + O(n) = O(2n)
+// extra space complexity = O(1);
