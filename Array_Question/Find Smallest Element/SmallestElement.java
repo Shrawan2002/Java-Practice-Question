@@ -8,10 +8,10 @@ public class SmallestElement {
                 smallEle = arr[i];
             }
         }
-        // return smallEle;
+        return smallEle;
     }
     public static void main(String[] args) {
         int arr[] = {2, 3, 4, 6, 7};
-        // System.out.println( smallestElement(arr));  
+        System.out.println( smallestElement(arr));  
   }
 }
