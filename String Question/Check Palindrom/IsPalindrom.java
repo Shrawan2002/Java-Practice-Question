@@ -12,6 +12,6 @@ public class IsPalindrom {
     }
     public static void main(String[] args) {
         String str = "racecar";
-      System.out.println(  ispalindrom(str));
+      System.out.println(ispalindrom(str));
     }
 }
