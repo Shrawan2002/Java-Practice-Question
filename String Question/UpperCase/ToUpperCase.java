@@ -14,8 +14,8 @@ public class ToUpperCase {
         }
         return sb.toString();
     }
-    public static void main(String[] args) {
-        String str = "Hi i am shrawan";
-        System.out.println(toUpper(str));
-    }
-}
+//     public static void main(String[] args) {
+//         String str = "Hi i am shrawan";
+//         System.out.println(toUpper(str));
+//     }
+// }
